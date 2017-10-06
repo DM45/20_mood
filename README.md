@@ -4,7 +4,7 @@
 
 # How to install
 
-Copy this repository and host 
+Copy this repository and host it
 
 # How to add new quote
 
