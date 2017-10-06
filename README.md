@@ -1,6 +1,6 @@
 # Site for the Mood
 
-[Small site](https://dm45.github.io/20_mood/) for get good mood!
+Small site with funny quote
 
 # How to install
 
