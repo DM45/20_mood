@@ -2,9 +2,11 @@
 <html>
 <head>
   <title>Настроение</title>
-  <script id="quotes_json" type="application/json">
-    [
-      {
+  <script>
+    function randomtext() {
+      var quotes =     
+      [
+        {
         "phrase": "Кукурузные хлопья - теперь без асбеста!",
         "signature": "©Неизвестный маркетолог"
       },
@@ -17,9 +19,20 @@
       {
         "phrase": "Если ты будешь усердно работать по 8 часов в день, то обязательно станешь боссом и начнешь работать по 12"
       }
-    ]
+    ];
+      var quote = quotes[Math.floor(Math.random() * quotes.length)];
+      if (quote.signature === undefined) {
+        document.getElementById("quote").innerHTML =
+        '<h1>' + quote.phrase + '</h1>';}
+      else {
+        document.getElementById("quote").innerHTML =
+        '<h1>' + quote.phrase + '</h1>'+
+        '<p>' + quote.signature + '</p>';}
+    };
   </script>
 </head>
-<body>
+<body onload="randomtext()">
+  <div id="quote"> 
+  <div>
 </body>
 </html>
