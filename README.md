@@ -4,7 +4,17 @@
 
 # How to install
 
-Copy this repositories
+Copy this repository and host 
+
+# How to add new quote
+
+Add new quote to var quotes in index.html
+```bash
+{
+ "phrase": "Кукурузные хлопья - теперь без асбеста!",
+ "signature": "©Неизвестный маркетолог"
+},
+```
 
 # How to get good mood?
 
