@@ -1,6 +1,14 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+[Small site](https://dm45.github.io/20_mood/) for get good mood!
+
+# How to install
+
+Copy this repositories
+
+# How to get good mood?
+
+[Just click!](https://dm45.github.io/20_mood/)
 
 # Project Goals
 
