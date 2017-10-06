@@ -1,6 +1,6 @@
 # Site for the Mood
 
-Small site with funny quote
+Small site with funny quotes
 
 # How to install
 
