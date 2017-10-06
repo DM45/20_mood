@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <title>Настроение</title>
   <script>
     function randomtext() {
@@ -23,16 +27,16 @@
       var quote = quotes[Math.floor(Math.random() * quotes.length)];
       if (quote.signature === undefined) {
         document.getElementById("quote").innerHTML =
-        '<h1>' + quote.phrase + '</h1>';}
+        '<h2>' + quote.phrase + '</h2>';}
       else {
         document.getElementById("quote").innerHTML =
-        '<h1>' + quote.phrase + '</h1>'+
+        '<h2>' + quote.phrase + '</h2>'+
         '<p>' + quote.signature + '</p>';}
     };
   </script>
 </head>
 <body onload="randomtext()">
-  <div id="quote"> 
+  <div id="quote" class="p-3 mb-2 bg-success text-white" style="margin-top: 100px; margin-: 25px; "> 
   <div>
 </body>
 </html>
