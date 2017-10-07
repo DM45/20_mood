@@ -25,7 +25,7 @@
       }
     ];
       var quote = quotes[Math.floor(Math.random() * quotes.length)];
-      if (quote.signature === undefined) {
+      if (!quote.signature) {
         document.getElementById("quote").innerHTML =
         '<h2>' + quote.phrase + '</h2>';}
       else {
